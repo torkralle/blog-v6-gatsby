@@ -12,11 +12,15 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          <img
-            src={logo}
-            alt="Kaldi"
-            style={{ width: "14em", height: "10em" }}
-          />
+          <span
+            style={{
+              fontSize: "24px",
+              fontWeight: "bold",
+              fontFamily: "'Alegreya Sans SC', sans-serif",
+            }}
+          >
+            Hoshiko Blog.
+          </span>
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
@@ -37,11 +41,6 @@ const Footer = class extends React.Component {
                     <li>
                       <Link className="navbar-item" to="/products">
                         Products
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
                       </Link>
                     </li>
                     <li>
