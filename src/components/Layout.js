@@ -9,13 +9,15 @@ import { withPrefix } from "gatsby";
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
-    <div style={{
-      display: 'flex',
-      flexFlow: 'column',
-      minHeight: '100vh',
-    }}>
+    <div
+      style={{
+        display: "flex",
+        flexFlow: "column",
+        minHeight: "100vh",
+      }}
+    >
       <Helmet>
-        <html lang="en" />
+        <html lang="ja" />
         <title>{title}</title>
         <meta name="description" content={description} />
 
@@ -42,6 +44,11 @@ const TemplateWrapper = ({ children }) => {
           href={`${withPrefix("/")}img/safari-pinned-tab.svg`}
           color="#ff4400"
         />
+
+        <link
+          href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300"
+          rel="stylesheet"
+        />
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="business.business" />
@@ -53,7 +60,7 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <Navbar />
-      <div style={{flex: 1}}>{children}</div>
+      <div style={{ flex: 1 }}>{children}</div>
       <Footer />
     </div>
   );
