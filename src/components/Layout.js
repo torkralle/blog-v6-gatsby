@@ -9,7 +9,11 @@ import { withPrefix } from "gatsby";
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
   return (
-    <div>
+    <div style={{
+      display: 'flex',
+      flexFlow: 'column',
+      minHeight: '100vh',
+    }}>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -49,7 +53,7 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <Navbar />
-      <div>{children}</div>
+      <div style={{flex: 1}}>{children}</div>
       <Footer />
     </div>
   );
