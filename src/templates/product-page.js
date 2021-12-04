@@ -40,7 +40,7 @@ export const ProductPageTemplate = ({
             </div>
             <div className="columns">
               <div className="column is-10 is-offset-1">
-                <Features gridItems={intro.blurbs} /> 
+                <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-7">
                     <h3 className="has-text-weight-semibold is-size-3">
@@ -76,22 +76,6 @@ export const ProductPageTemplate = ({
           </div>
         </div>
       </section>
-      <FullWidthImage img={fullWidthImage} imgPosition={"bottom"} />
-      <section className="section section--gradient">
-        <div className="container">
-          <div className="section">
-            <div className="columns">
-              <div className="column is-10 is-offset-1">
-                <h2 className="has-text-weight-semibold is-size-2">
-                  {pricing.heading}
-                </h2>
-                <p className="is-size-5">{pricing.description}</p>
-                <Pricing data={pricing.plans} />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
@@ -113,11 +97,6 @@ ProductPageTemplate.propTypes = {
   }),
   testimonials: PropTypes.array,
   fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  pricing: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    plans: PropTypes.array,
-  }),
 };
 
 const ProductPage = ({ data }) => {
@@ -210,16 +189,6 @@ export const productPageQuery = graphql`
         full_image {
           childImageSharp {
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
-          }
-        }
-        pricing {
-          heading
-          description
-          plans {
-            description
-            items
-            plan
-            price
           }
         }
       }
