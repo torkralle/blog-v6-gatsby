@@ -5,12 +5,11 @@ import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import Testimonials from "../components/Testimonials";
-import Pricing from "../components/Pricing";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import FullWidthImage from "../components/FullWidthImage";
 
 // eslint-disable-next-line
-export const ProductPageTemplate = ({
+export const BusinessPageTemplate = ({
   image,
   title,
   heading,
@@ -19,7 +18,6 @@ export const ProductPageTemplate = ({
   main,
   testimonials,
   fullImage,
-  pricing,
 }) => {
   const heroImage = getImage(image) || image;
   const fullWidthImage = getImage(fullImage) || fullImage;
@@ -80,7 +78,7 @@ export const ProductPageTemplate = ({
   );
 };
 
-ProductPageTemplate.propTypes = {
+BusinessPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -99,12 +97,12 @@ ProductPageTemplate.propTypes = {
   fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
 };
 
-const ProductPage = ({ data }) => {
+const BusinessPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
-      <ProductPageTemplate
+      <BusinessPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -119,7 +117,7 @@ const ProductPage = ({ data }) => {
   );
 };
 
-ProductPage.propTypes = {
+BusinessPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -127,9 +125,9 @@ ProductPage.propTypes = {
   }),
 };
 
-export default ProductPage;
+export default BusinessPage;
 
-export const productPageQuery = graphql`
+export const businessPageQuery = graphql`
   query ProductPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       frontmatter {
@@ -138,6 +136,9 @@ export const productPageQuery = graphql`
           childImageSharp {
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
           }
+        }
+        fields {
+          slug
         }
         heading
         description

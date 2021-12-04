@@ -1,7 +1,8 @@
 ---
 heading: What I can?
-path: /products
-templateKey: product-page
+fields: 
+  slug: /business
+templateKey: business-page
 title: Business.
 image: /img/jumbotron.jpg
 description: 受注可能な案件を以下に示します。
