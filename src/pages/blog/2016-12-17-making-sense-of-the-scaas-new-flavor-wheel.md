@@ -1,33 +1,157 @@
 ---
 templateKey: blog-post
-title: 明日発表
+title: 北海道旅行記 道北篇 Vol.1
 date: 2021-12-02T02:30:18.784Z
-description: またのお越しをお待ちしてます。
+description: 北海道の旅の記録を取っていきます。
 featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/img_2378.jpg
 tags:
-  - flavor
-  - tasting
+  - travel
 ---
-![flavor wheel](/img/flavor_wheel.jpg)
+![宗谷岬](/img/img_2378.jpg "宗谷岬")
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+## はじめに
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+札幌から宗谷岬まで旅した際に立ち寄った場所を紹介したいと思います。
 
-## What the updates mean to you
+旅の序盤、1日目から2日目にかけての記事になります。
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+## 目次
 
-* producers
-* roasters
-* importers/exporters
-* retailers
-* manufacturers
-* baristas
+今回紹介する場所はこちらです
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+* 蛇の目寿司
+* 道の駅びふか
+* 道の駅おといねっぷ
+* 音威子府駅
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
+## 蛇の目寿司
 
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+ホームページ: 
+
+<https://rumoi-jyanome.com/>
+
+![蛇の目寿司 写真](/img/img_2319.jpg "蛇の目寿司 写真")
+
+まず立ち寄ったのが留萌市にある蛇の目寿司です。
+
+地元の人に愛されているのが伝わってきましたね。
+
+そんな中こちらでは、極上にぎりを注文しました。上記の写真です。
+
+値段は3300円。GoToEatが使えたので、少しお高めのものを頼んでみました。
+
+正直な話をすると、お味は普通です。
+
+トロや穴子、がりはかなり美味しかったんですが、シャコがいまいち過ぎました。
+
+普通というよりも、美味しいものとあまり美味しくないものの落差が激しいですね。
+
+
+
+
+
+## 道の駅びふか
+
+![道の駅びふか](/img/img_2330.jpg "道の駅びふか")
+
+峠の途中にあるのが「道の駅びふか」です。
+
+道の駅の裏側の景色がいいことが特徴です。
+
+池や山のゆったりとした風景を楽しむことができます。
+
+![景色](/img/img_2333.jpg "景色")
+
+天気が悪いのが残念でしたね。
+
+景色を見るのも寒いので程々に切り上げ、豚串揚げを注文。
+
+
+
+![豚串揚げ](/img/img_2329.jpg "豚串揚げ")
+
+これが想像以上に美味。
+
+メインの豚がジューシーでホカホカ。寒い中でのドライブに沁みました。
+
+そして、間に挟まっている玉ねぎが甘いこと甘いこと。
+
+大学生の後半になってから顕著に味覚が変わったので、脂っこいものの間の野菜がとてつもなく美味しいんですよね。
+
+
+
+美味しくいただきました。
+
+
+
+## 道の駅おといねっぷ
+
+![道の駅おといねっぷ](/img/img_2336.jpg "道の駅おといねっぷ")
+
+お次は道の駅おといねっぷです。
+
+建物は大きいのに何となくこじんまりとした不思議な道の駅でした。
+
+食堂は割と早めに閉まるのでご注意を。
+
+こちらではコーヒーと**じゃばらまる**なるものを購入。
+
+すでに終わっているイベントのチラシと撮影してみました。
+
+![じゃばらまる](/img/img_2337.jpg "じゃばらまる")
+
+このじゃばらまる、かなり美味しかったです。
+
+じゃばらとだいだいから作られているらしんですが、じゃばらは初めて聞いた柑橘でした。
+
+初めてのものを知る、旅の醍醐味ですね。いい経験になりました。
+
+調べたらゆず系の柑橘なんですね。
+
+今度じゃばらを見かけたら買ってみようと思います。
+
+
+
+## 音威子府駅
+
+最後に宗谷本線、音威子府駅です。
+
+![音威子府駅](/img/img_2362.jpg "音威子府駅")
+
+鉄道好きなら、かなりおすすめの駅です。
+
+まず北海道の駅では珍しい有人駅というのが目に付きます。
+
+有人駅であるため、入場にはお金を払う必要がありましたが、生まれてはじめて切符を人の手で切ってもらいました。
+
+符を切るというものを実感して、面白かったです。
+
+
+
+また、宗谷本線の歴史も展示してあったり、空きスペースを利用した憩いの場、コワーキングスペースなどもあったりしました。
+
+人が少ないながらも工夫して、街の居場所をつくる。
+
+そういうの好きです。
+
+普段札幌にいるとなかなか実感できないので、もっと視野を広く持とうと思いました。
+
+
+## まとめ
+
+北海道旅行のいいところって、自分の小ささを実感できるところだと思います。
+
+自然の偉大さや、冬の厳しさ、一人旅の寂しさを知って、なおかつそれを楽しむ。
+
+そういうのも旅の醍醐味です。
+
+ゆるキャンのりんちゃんも言ってました。
+
+「ソロキャンは寂しさも含めて楽しむものだ」と。
+
+まとめのくせにまとまりを欠き始めているので、ここらで締めたいと思います。
+
+読んでいただきありがとうございました！
+
+参考になれば幸いです！
